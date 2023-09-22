@@ -463,6 +463,8 @@ STEPS = {
         set_improve_filelist,
         get_improve_prompt,
         improve_existing_code,
+        execute_entrypoint,
+        human_review
     ],
     Config.EVAL_IMPROVE_CODE: [assert_files_ready, improve_existing_code],
     Config.EVAL_NEW_CODE: [simple_gen],
